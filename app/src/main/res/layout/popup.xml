@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="@drawable/pop">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Welcome to LOVESCOPE!"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="\nThis app provides love compatibility based on zodiac signs.\n\nNote: This App is for entertainment and knowledge about zodiac beliefs. This does not mean to offend anyone.\n\nZodiac Signs:\nAries—March 21-April 19.\nTaurus—April 20-May 20.\nGemini—May 21-June 20.\nCancer—June 21-July 22.\nLeo—July 23-August 22.\nVirgo—August 23-September 22.\nLibra—September 23-October 22.\nScorpio—October 23-November 21.\nSagittarius—November 22-December 21.\nCapricorn—December 22-January 19.\nAquarius—January 20-February 18.\nPisces—February 19-March 20.\n\n1. Select two signs and press 'Calculate' to see the compatibility percentage.\n\n2. Select two signs and press 'More' to see more info about the pair."
+                android:textSize="18sp" />
+        </LinearLayout>
+
+</LinearLayout>
